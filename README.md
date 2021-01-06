@@ -1,2 +1,2 @@
 # jayoung-cinnamon.github.io
-jayoung's portfolio
+hi I'm jayoung
