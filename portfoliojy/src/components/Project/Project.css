@@ -1,0 +1,19 @@
+/** @format */
+
+.section__project {
+  color: salmon;
+  border: 1px solid salmon;
+  height: 100vh;
+  display: flex;
+}
+.section__project .inner {
+  display: flex;
+  border: 1px solid blue;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.section__project .wrapper {
+  border: 1px solid green;
+  font-size: 100px;
+}

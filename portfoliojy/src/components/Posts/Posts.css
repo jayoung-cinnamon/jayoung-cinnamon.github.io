@@ -1,0 +1,19 @@
+/** @format */
+.section__posts {
+  color: darkorange;
+  border: 1px solid darkorange;
+  display: flex;
+}
+
+.section__posts .inner {
+  display: flex;
+  border: 1px solid blue;
+  margin: 0 auto;
+  width: 80%;
+  height: 60vh;
+}
+
+.section__posts .wrapper {
+  border: 1px solid green;
+  font-size: 100px;
+}

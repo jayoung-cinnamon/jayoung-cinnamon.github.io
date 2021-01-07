@@ -1,0 +1,19 @@
+/** @format */
+
+.footer {
+  color: salmon;
+  border: 1px solid salmon;
+  height: 100px;
+  display: flex;
+}
+
+.footer .inner {
+  display: flex;
+  border: 1px solid blue;
+  margin: 0 auto;
+  width: 80%;
+}
+.footer .wrapper {
+  font-size: 30px;
+  color: black;
+}
