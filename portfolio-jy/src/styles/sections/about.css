@@ -1,0 +1,127 @@
+/** @format */
+
+#about {
+  display: flex;
+  background: #c2d9df;
+  align-items: center;
+  justify-content: center;
+  border-top: 0;
+  border-bottom: 0px;
+  color: #2e4558;
+  /* padding: 0rem 5.6rem; */
+  margin-bottom: 0;
+  z-index: -1;
+}
+.About-wrapper {
+  width: 90%;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  letter-spacing: 2px;
+}
+.About-img {
+  display: inline-block;
+  margin-right: 30px;
+  width: 300px;
+  height: 300px;
+}
+.About-img div {
+  height: inherit;
+  width: inherit;
+  color: #fff;
+  font-size: 24px;
+  backface-visibility: hidden;
+  transition: all 1.5s;
+  text-align: center;
+}
+.About-img div:last-child {
+  position: relative;
+  top: -200px;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+}
+.About-img:hover div:first-child {
+  transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -o-transform: rotateY(-180deg);
+}
+.About-img:hover div:last-child {
+  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+}
+.img-back {
+  height: 500px;
+  background-color: black;
+}
+.About-img div img {
+  z-index: 99;
+  width: 300px;
+  margin-left: 30px;
+  border-radius: 20px;
+}
+
+.About-text {
+  width: 600px;
+  height: 600px;
+  margin-left: 30px;
+}
+
+.About-text-main {
+  font-size: 100px;
+}
+.About-text-sub {
+  font-size: 18px;
+}
+
+@media (max-width: 500px) {
+  .About-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .About-img div img {
+    z-index: 99;
+    width: 200px;
+  }
+  .About-text-main {
+    font-size: 50px;
+  }
+  .About-text-sub {
+    font-size: 15px;
+  }
+  .About-text {
+    width: 500px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 993px) {
+  .About-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .About-img div img {
+    z-index: 99;
+    width: 200px;
+  }
+  .About-text-main {
+    margin-top: 0;
+    font-size: 50px;
+  }
+  .About-text-sub {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .About-text {
+    width: 400px;
+    height: 280px;
+  }
+}
