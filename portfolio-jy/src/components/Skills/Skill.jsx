@@ -27,21 +27,23 @@ function Skill () {
       <Container className="skillsection">
         <Wrapper>
           <Title title ="Skill"/>
-          
-          <Fade bottom duration={1000} delay={800} distance="30px">
+           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
+         
             <div className="skill-container">
                <div className="skill-wrapper">
               {skills.lists.map((list,i)=>(
                 <SkillCard skill={list} key={i}/>
               ))}
             </div>
-
-             <div className="skill-desc">
-                        {skills.describeSkills.map((desc, i) => <p key={i}>{desc}</p>)}
-             </div>
+             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={700} distance="30px">
+                <div className="skill-desc">
+                           {skills.describeSkills.map((desc, i) => <p key={i}>{desc}</p>)}
+                </div>
+             </Fade>
+          
             </div>
            
-
+            
           </Fade>
         </Wrapper>
       </Container>
