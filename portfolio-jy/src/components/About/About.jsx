@@ -37,11 +37,12 @@ function About () {
                 </div>
                 <div className="About-text">
                   <div className="About-text-main">
-                    Hi!
+                    안녕하세요
                   </div>
                   <div className="About-text-sub">
-                    I'm jayoung
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, nulla reprehenderit vitae sint necessitatibus, cum tempora ratione officiis animi culpa, magnam aliquid dolore. Voluptatibus eveniet eum eos non, dolor excepturi quis tempora pariatur est molestias aliquam nostrum tenetur dicta repellat doloribus. Maiores nulla nisi nemo aut sapiente beatae magni, eveniet libero quia. Sunt ipsa vitae quod. Possimus aut sapiente reprehenderit voluptates earum eius architecto a, quo dolorum sunt provident distinctio fuga sit ut velit, dolorem libero quae quam ex quasi, nobis maiores id debitis. Obcaecati mollitia esse minima enim doloremque cumque accusamus nam! Eius rerum itaque consectetur, modi iusto sint?
+                    프론트엔드 개발자 <span className="highlighttext">육자영</span> 입니다👩🏻‍💻<br/>
+                    현재 프론트엔드 개발 공부에 빠져 공부를 하고 있습니다.<br/>
+                    <span className="highlighttext">Slow but Steady</span>가 제 좌우명일 만큼<br/>꾸준히 공부하며 발전하는 개발자가 되고싶습니다:)
                   </div>
                 </div>
               </div>

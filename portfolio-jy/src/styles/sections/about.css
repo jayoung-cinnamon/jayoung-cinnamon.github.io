@@ -14,9 +14,10 @@
 }
 .About-wrapper {
   width: 90%;
+  height: 60vh;
   padding: 30px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   letter-spacing: 2px;
 }
@@ -71,12 +72,13 @@
 
 .About-text {
   width: 600px;
-  height: 600px;
+  height: 400px;
   margin-left: 30px;
 }
 
 .About-text-main {
-  font-size: 100px;
+  font-size: 70px;
+  margin-bottom: 10px;
 }
 .About-text-sub {
   font-size: 18px;
@@ -124,4 +126,10 @@
     width: 400px;
     height: 280px;
   }
+}
+
+.highlighttext {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0a5562;
 }

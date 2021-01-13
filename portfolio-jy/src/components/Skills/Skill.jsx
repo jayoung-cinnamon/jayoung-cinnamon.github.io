@@ -3,6 +3,9 @@ import Title from '../Title/Title';
 import Fade from 'react-reveal/Fade';
 import Container from './../../styles/container/Container';
 import Wrapper from '../../styles/container/Wrapper';
+import "../../styles/sections/skill.css";
+import SkillCard from './SkillCard';
+import { skills } from '../../portfoliodata';
 
 function Skill () {
 
@@ -21,13 +24,24 @@ function Skill () {
 
   return (
     <section id="skill">
-      <Container>
+      <Container className="skillsection">
         <Wrapper>
-          <Title title ="Skills that I can!:)"/>
+          <Title title ="Skill"/>
+          
           <Fade bottom duration={1000} delay={800} distance="30px">
-            <div className="skill-wrapper">
-              <div className="skill-text">스킬카드</div>
+            <div className="skill-container">
+               <div className="skill-wrapper">
+              {skills.lists.map((list,i)=>(
+                <SkillCard skill={list} key={i}/>
+              ))}
             </div>
+
+             <div className="skill-desc">
+                        {skills.describeSkills.map((desc, i) => <p key={i}>{desc}</p>)}
+             </div>
+            </div>
+           
+
           </Fade>
         </Wrapper>
       </Container>
