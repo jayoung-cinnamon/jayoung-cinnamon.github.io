@@ -26,8 +26,8 @@ function Skill () {
     <section id="skill">
       <Container className="skillsection">
         <Wrapper>
+          <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <Title title ="Skill"/>
-           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
          
             <div className="skill-container">
                <div className="skill-wrapper">

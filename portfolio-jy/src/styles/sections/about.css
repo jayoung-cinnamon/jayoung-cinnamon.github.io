@@ -26,6 +26,7 @@
   margin-right: 30px;
   width: 300px;
   height: 300px;
+  cursor: pointer;
 }
 .About-img div {
   height: inherit;

@@ -11,6 +11,11 @@
   background-color: transparent;
   transition: 0.2s ease-out;
   border-radius: 5px;
+  cursor: pointer;
+}
+.skillcard-container:hover {
+  background: #cfdfc2;
+  color: rgb(248, 154, 120);
 }
 
 .skillcard-wrapper {
@@ -62,9 +67,13 @@
 }
 @media (max-width: 850px) {
   .skillcard-container {
+    border: 1px solid red;
     width: 100%;
     height: 80px;
     border: none;
+  }
+  .skillcard-container:hover {
+    background: transparent;
   }
   .skill-progress-bar {
     border: 1px solid #263847;

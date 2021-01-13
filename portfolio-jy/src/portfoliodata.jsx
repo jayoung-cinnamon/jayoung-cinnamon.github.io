@@ -19,3 +19,26 @@ export const skills ={
   view:true,
   
 };
+
+export const projects ={
+  
+  lists:[
+    { title:"Agenda",
+      desc:"처방전 스캔을 통한 통합 약 관리 시스템",
+      url:"https://github.com/jayoung-cinnamon/Agenda"
+    },
+    { title:"on:soo",
+      desc:"실시간 영상을 이용한 개인 과외사이트 ",
+      url:"https://github.com/jayoung-cinnamon/onsoo"
+    },
+    { title:"blank",
+      desc:"I'll try to harder🤗 ",
+      url:"https://github.com/jayoung-cinnamon"
+    },
+    { title:"blank",
+      desc:"I'll try to harder🤗 ",
+      url:"https://github.com/jayoung-cinnamon"
+    },
+  ],
+  view:true,
+};

@@ -26,7 +26,7 @@ function About () {
       <Container>
         <Wrapper>
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-            <Title title ="About me 👀"/>
+            <Title title ="About me"/>
           </Fade>
              <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="About-wrapper">
