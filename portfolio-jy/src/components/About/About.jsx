@@ -40,7 +40,7 @@ function About () {
                     안녕하세요
                   </div>
                   <div className="About-text-sub">
-                    프론트엔드 개발자 <span className="highlighttext">육자영</span> 입니다👩🏻‍💻<br/>
+                    프론트엔드 개발자 <span className="highlighttext">육자영</span> 입니다<span role="img" aria-label="computerwoman">👩🏻‍💻</span><br/>
                     현재 프론트엔드 개발 공부에 빠져 공부를 하고 있습니다.<br/>
                     <span className="highlighttext">Slow but Steady</span>가 제 좌우명일 만큼<br/>꾸준히 공부하며 발전하는 개발자가 되고싶습니다:)
                   </div>

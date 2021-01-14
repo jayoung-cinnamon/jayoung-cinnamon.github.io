@@ -32,11 +32,11 @@ export const projects ={
       url:"https://github.com/jayoung-cinnamon/onsoo"
     },
     { title:"blank",
-      desc:"I'll try to harder🤗 ",
+      desc:"I'll try to harder ",
       url:"https://github.com/jayoung-cinnamon"
     },
     { title:"blank",
-      desc:"I'll try to harder🤗 ",
+      desc:"I'll try to harder  ",
       url:"https://github.com/jayoung-cinnamon"
     },
   ],

@@ -24,11 +24,11 @@ function Welcome(){
       <Container>
         <WelcomeWrapper>
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-            <div className="welcome-title">Hi, my name is <span className="welcome-title-color">jayoung<span className="welcome-hand">👋🏻</span></span></div>
+            <div className="welcome-title">Hi, my name is <span className="welcome-title-color">jayoung<span role="img" aria-label="welcome-hand" className="welcome-hand">👋🏻</span></span></div>
           </Fade>
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-            <div className="welcome-subtitle">
-              I'm the Frontend Developer✨
+            <div  className="welcome-subtitle">
+              I'm the Frontend Developer<span role="img" aria-label="sparkle">✨</span>
             </div>
               <Link to="contact" smooth={true} duration={1000}>
                 <div className="contactBtn">
