@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/jayoung-cinnamon.github.io/static/css/main.aae5b232.chunk.css",
-    "main.js": "/jayoung-cinnamon.github.io/static/js/main.4d24e131.chunk.js",
-    "main.js.map": "/jayoung-cinnamon.github.io/static/js/main.4d24e131.chunk.js.map",
+    "main.css": "/jayoung-cinnamon.github.io/static/css/main.91ede10c.chunk.css",
+    "main.js": "/jayoung-cinnamon.github.io/static/js/main.ed1a4226.chunk.js",
+    "main.js.map": "/jayoung-cinnamon.github.io/static/js/main.ed1a4226.chunk.js.map",
     "runtime-main.js": "/jayoung-cinnamon.github.io/static/js/runtime-main.41cd00ec.js",
     "runtime-main.js.map": "/jayoung-cinnamon.github.io/static/js/runtime-main.41cd00ec.js.map",
     "static/js/2.6ea34d8a.chunk.js": "/jayoung-cinnamon.github.io/static/js/2.6ea34d8a.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.49d49545.chunk.js": "/jayoung-cinnamon.github.io/static/js/3.49d49545.chunk.js",
     "static/js/3.49d49545.chunk.js.map": "/jayoung-cinnamon.github.io/static/js/3.49d49545.chunk.js.map",
     "index.html": "/jayoung-cinnamon.github.io/index.html",
-    "static/css/main.aae5b232.chunk.css.map": "/jayoung-cinnamon.github.io/static/css/main.aae5b232.chunk.css.map",
+    "static/css/main.91ede10c.chunk.css.map": "/jayoung-cinnamon.github.io/static/css/main.91ede10c.chunk.css.map",
     "static/js/2.6ea34d8a.chunk.js.LICENSE.txt": "/jayoung-cinnamon.github.io/static/js/2.6ea34d8a.chunk.js.LICENSE.txt",
     "static/media/jayoung.8f42679c.jpg": "/jayoung-cinnamon.github.io/static/media/jayoung.8f42679c.jpg",
     "static/media/jayoung.cbdbdf80.png": "/jayoung-cinnamon.github.io/static/media/jayoung.cbdbdf80.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.41cd00ec.js",
     "static/js/2.6ea34d8a.chunk.js",
-    "static/css/main.aae5b232.chunk.css",
-    "static/js/main.4d24e131.chunk.js"
+    "static/css/main.91ede10c.chunk.css",
+    "static/js/main.ed1a4226.chunk.js"
   ]
 }
