@@ -36,13 +36,14 @@ function About () {
                    
                 </div>
                 <div className="About-text">
-                  <div className="About-text-main">
-                    안녕하세요
-                  </div>
+                  <div className="About-text-main">Frontend Developer</div>
+                  <span className="highlighttext">육자영</span><br/>
                   <div className="About-text-sub">
-                    프론트엔드 개발자 <span className="highlighttext">육자영</span> 입니다<span role="img" aria-label="computerwoman">👩🏻‍💻</span><br/>
-                    현재 프론트엔드 개발 공부에 빠져 공부를 하고 있습니다.<br/>
-                    <span className="highlighttext">Slow but Steady</span>가 제 좌우명일 만큼<br/>꾸준히 공부하며 발전하는 개발자가 되고싶습니다:)
+                      안녕하세요 신입 프론트엔드 개발자 육자영입니다
+                     <span role="img" aria-label="computerwoman">👩🏻‍💻</span><br/>
+                     주로 javaScript, React, Css를 이용해 개발을 하고 있습니다.<br/><br/>
+                    <span className="highlighttext">Slow but Steady</span><br/>
+                    <br/>꾸준히 공부하며 발전하는 개발자가 되고싶습니다:)
                   </div>
                 </div>
               </div>

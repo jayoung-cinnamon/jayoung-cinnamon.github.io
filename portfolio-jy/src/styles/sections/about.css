@@ -95,9 +95,9 @@
     width: 200px;
   }
   .About-text-main {
-    border: 1px solid red;
+   
     width: 80%;
-    font-size: 50px;
+    font-size: 10px;
   }
   .About-text-sub {
     font-size: 15px;
@@ -119,7 +119,7 @@
   }
   .About-text-main {
     margin-top: 0;
-    font-size: 50px;
+    font-size: 30px;
   }
   .About-text-sub {
     margin-top: 10px;
